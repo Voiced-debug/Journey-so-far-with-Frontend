@@ -7,6 +7,512 @@
     <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
-    <h1>Learning HTML and CSS - Journey so far</h1>
+    <nav id="navbar">
+        <header>Journey so far Documentation</header>
+        <ul>
+            <li><a href="#Web_development" class="nav-link">Web Development</a></li>
+            <li><a href="#Paths_to_web_development" class="nav-link">Paths to Web development</a></li>
+            <li><a href="#What_you_need_to_get_started" class="nav-link">What you need to get started</a></li>
+            <li><a href="#What_HTML_is_and_is_not" class="nav-link">What HTML is and is not</a></li>
+            <li><a href="#Structure_of_HTML" class="nav-link">Structure of HTML</a></li>
+            <li><a href="#Block_level_tags" class="nav-link">Block level tags</a></li>
+            <li><a href="#Inline_tags" class="nav-link">Inline tags</a></li>
+            <li><a href="#HTML_characters" class="nav-link">HTML characters</a></li>
+            <li><a href="#What_CSS_is" class="nav-link">What CSS is</a></li>
+            <li><a href="#Hierarchy_of_CSS" class="nav-link">Hierarchy of CSS</a></li>
+            <li><a href="#CSS_Animation" class="nav-link">CSS Animation</a></li>
+            <li><a href="#Why_Accessibility_is_important" class="nav-link">Why Accessibility is important</a></li>
+        </ul>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="Web_development">
+            <header>Web Development</header>
+            <img src="./img/web-development.jpg" alt="" width="400px" height="360px">
+            <article>
+                <p>This is the process of building and maintenance of websites, social media, 
+                    electronic businesses and applications for the internet. There are two kinds of websites 
+                    based on functionality.
+                    <dl>
+                        <dt>Static Websites:</dt>
+                        <dd>It has little or no animation. Special functions are specified with
+                            JavaScript. The number of pages ranges from 1 - 3 pages. Information or 
+                            content associated with the website does not need to be edited regularly. 
+                            Examples include portfolios, tributes pages, forms.
+                            Throughout the duration of the mentorship, this is what is focused on.
+                        </dd>
+                        <dt>Dynamic Websites:</dt>
+                        <dd>It has a lot of functionality controlled  by scripts written or added externally. 
+                            Its content needs to be edited rgularly and kept up-to-date. Examples of such type 
+                            of websites include blogs, E-commerce websites.
+                        </dd>
+                    </dl>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Paths_to_web_development">
+            <header>Paths to web devlopment</header>
+            <article>
+                <p>There are different paths to web development. They are:
+                    <ol>
+                        <li>Front end: Also known as the client end as it is what the users see. <b>HTML and CSS </b>
+                            is majorly used. It is associated with static websites</li>
+    
+                        <li>Back end: It involves everything that makes a website responsive when elements are interacted 
+                            with. <b>C#, Python, Ruby </b>are used to achieve this. It is associated with dynamic 
+                        websites.</li>
+    
+                        <li>Fullstack: It is the combination of both frontend and backend.</li>
+                    </ol>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="What_you_need_to_get_started">
+            <header>What you need to get started</header>
+            <article>
+                <p>To launch your career in Web development in whatever path you might have chosen, the following
+                    needs to be installed on your personal computers:
+                    <ul>
+                        <li>A code editor or IDE for writing out your code e.g Visual Studio Code, Sublime text, Atom.</li>
+                        <li>A web browser for viewing the output e.g Mozilla firefox, Google Chrome, Microsoft Edge.</li>
+                    </ul>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="What_HTML_is_and_is_not">
+            <header>What HTML is and is not</header>
+            <figure>
+                <img src="./img/html.jpg" alt="HTML5 logo">
+
+                <figcaption>HTML 5</figcaption>
+            </figure>
+            <article>
+                <p>HTML stands for <b>Hypertext Markup Language</b>. A markup Language
+                    used for adding structure and context to documents to be displayed in a
+                    web browser. Its documents are files extensions that ends with 
+                    <b>.html</b> or <b>.htm</b>. The recent version HTML5 known as 
+                    <b>HTML living standard</b>. 
+                    </p>
+                    <p>It uses its elements e.g header, main, article etc for giving
+                        meaning to content on the web. Over time, there has been a huge debate 
+                        whether HTML is a programming language or not. <br>
+                        <ul>
+                            <li>Those for it believes since it instructs the computer on 
+                                what to do, how content should be displayed, hierachy of the display
+                                and because it involves code . A declarative language i.e it gives declarative
+                                instructions to a computer.
+                            </li>
+                            <li>Some others would argue against because it contains no programming language
+                                , variables cant be declared, the absence of if-else statement, cant evaluate
+                                mathematical expressions, can't write functions, can neither take an input nor
+                                give an output, it is unable to carry out tasks.
+                            </li>
+                        </ul>
+                    </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Structure_of_HTML">
+            <header>Structure of HTML</header>
+            <img src="./img/tags.png" alt="">
+            <article>
+                <p>HTML documents are files that end with <b>.html</b> or <b>.htm</b> extension. Each HTML 
+                    page element is wrapped around tags which is the building blocks of web pages. They create a
+                    hierarchy that structures the contents into sections, paragraphs, headings and other content
+                    blocks. <br>
+                    Most HTML elements have an opening  and closing tag e.g &lt;p&gt;&lt;/p&gt; while others are 
+                    self-enclosing e.g &lt;img&gt;<br>
+                    There are two main types of HTML tags.
+                    <dl>
+                        <dt>Block-level tags:</dt>
+                        <dd>It takes up the fulla available space and always start a new line in the document.
+                            Headings, paragraphs, articles are great examples.
+                        </dd>
+                        <dt>Inline tags:</dt>
+                        <dd>It takes as much space as needed and does not start a new line on the page. They are 
+                            used to format inner contents of block level elements. Links, bold texts, quotes are examples
+                            of inline tags.
+                        </dd>
+                    </dl>
+                </p>   
+            </article>
+        </section>
+
+        <section class="main-section" id="Block_level_tags">
+            <header>Block level tags</header>
+            <article>
+                <p>Every HTML document needs to contain the &lt;html&gt;, &lt;head&gt; and &lt;body&gt;. <br>
+                    &lt;html&gt;&lt;/html&gt; is the highest level element that encloses every HTML page. <br>
+                    &lt;head&gt;&lt;/head&gt; contains information like page title, meta information, stysheets,scripts. <br>
+                    &lt;body&gt;&lt;/body&gt; encloses all the content that appears on the page that can be seen by the user.
+                </p>
+                <table>
+                    <thead>
+                        <tr>    
+                            <th></th>
+                            <th scope="col">Elements</th>
+                            <th scope="col">Symbols</th>
+                            <th scope="col">Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1.</th>
+                            <td>Headings</td>
+                            <td>&lt;h1..h6&gt;&lt;/h1..h6&gt;</td>
+                            <td>For writing An headlline. The bigger the size, the level of importance</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.</th>
+                            <td>Blockquote</td>
+                            <td>&lt;blockquote&gt;&lt;/blockquote&gt;</td>
+                            <td>Quotes often go here, with the &lt;cite&gt; tag</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.</th>
+                            <td>Forms</td>
+                            <td>&lt;form&gt;&lt;/form&gt;</td>
+                            <td>The parent tag for an HTML form</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4.</th>
+                            <td>Header</td>
+                            <td>&lt;header&gt;&lt;/header&gt;</td>
+                            <td>Specifies the webpage heading, could also be used for objects in the webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5.</th>
+                            <td>Paragraphs</td>
+                            <td>&lt;p&gt;&lt;/p&gt;</td>
+                            <td>For paragraphs with plain texts</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6.</th>
+                            <td>Divisions</td>
+                            <td>&lt;div&gt;&lt;/div&gt;</td>
+                            <td>For dividing the webpage content into blocks</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7.</th>
+                            <td>Images</td>
+                            <td>&lt;img&gt;</td>
+                            <td>For displaying images on a webpage, used with the src, alt, height, width attribute</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8.</th>
+                            <td>Lists</td>
+                            <td>&lt;ol/ul/dl&gt;&lt;/ol/ul/dl&gt;</td>
+                            <td>
+                                ordered list for listing items orderly, used with &lt;li&gt; for listing individual items <br>
+                                unordered list for listing items randomly, used with &lt;li&gt; for listing individual items <br>
+                                description list for listing items with their desciption, used with &lt;dt&gt; for the title and &lt;dd&gt; for details
+                            </td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9.</th>
+                            <td>Tables</td>
+                            <td>&lt;table&gt;&lt;/table&gt;</td>
+                            <td>For grouping data into table, used with the &lt;thead&gt; and &lt;tbody&gt; containing &lt;tr&gt; and &lt;td&gt;</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10.</th>
+                            <td>Main</td>
+                            <td>&lt;main&gt;&lt;/main&gt;</td>
+                            <td>For marking the main contents of a webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">11.</th>
+                            <td>Section</td>
+                            <td>&lt;section&gt;&lt;/section&gt;</td>
+                            <td>Specifies a particular sectionin the webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">12.</th>
+                            <td>Footer</td>
+                            <td>&lt;footer&gt;&lt;/footer&gt;</td>
+                            <td>Specifies the webpage footer. Could also be used for objects in the webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">13.</th>
+                            <td>Aside</td>
+                            <td>&lt;aside&gt;&lt;/aside&gt;</td>
+                            <td>For displaying content in a sidebar of the webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">14.</th>
+                            <td>Figure</td>
+                            <td>&lt;figure&gt;&lt;/figure&gt;</td>
+                            <td>Used to house figures(diagram, charts, images) with the &lt;figcaption&gt; for description of the figure</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">15.</th>
+                            <td>Article</td>
+                            <td>&lt;article&gt;&lt;/article&gt;</td>
+                            <td>Used for representing clippings from an article or an actual article</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">16.</th>
+                            <td>Navigation</td>
+                            <td>&lt;nav&gt;&lt;/nav&gt;</td>
+                            <td>For navigating links in a webpage</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">17.</th>
+                            <td>Fieldset</td>
+                            <td>&lt;fieldset&gt;&lt;/fieldset&gt;</td>
+                            <td>Used in a form to group a list of options to be selected form with &lt;legend&gt; for decribing what the options is</td>
+                        </tr>
+                    </tbody>
+                    <caption>Table 1. More examples on block-level tags</caption>
+                </table>
+            </article>
+        </section>
+
+        <section class="main-section" id="Inline_tags">
+            <header>Inline tags</header>
+            <article>
+                <p>They are used to format texts within a block-level element</p>
+                <table>
+                    <thead>
+                        <tr>    
+                            <th></th>
+                            <th scope="col">Elements</th>
+                            <th scope="col">Symbols</th>
+                            <th scope="col">Use</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">1.</th>
+                            <td>Break</td>
+                            <td>&lt;br&gt;</td>
+                            <td>For inserting line breaks when a new line is needed</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2.</th>
+                            <td>Span</td>
+                            <td>&lt;span&gt;&lt;/span&gt;</td>
+                            <td>For injecting elements like images, emoticon, text without ruining the styling of the page</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3.</th>
+                            <td>Strong</td>
+                            <td>&lt;strong&gt;&lt;/strong&gt;</td>
+                            <td>For making text and emphasizing a point</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">4.</th>
+                            <td>Emphasis</td>
+                            <td>&lt;em&gt;&lt;/em&gt;</td>
+                            <td>For emphasizing texts but displays in italics</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">5.</th>
+                            <td>Superscript</td>
+                            <td>&lt;sup&gt;&lt;/sup&gt;</td>
+                            <td>For writing a superscript i.e font above the mid-point of normal font e.g 5<sup>2</sup></td>
+                        </tr>
+                        <tr>
+                            <th scope="row">6.</th>
+                            <td>Subscript</td>
+                            <td>&lt;sub&gt;&lt;/sub&gt;</td>
+                            <td>For writing text below the mid-point of normal font e.g H<sub>2</sub>O</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">7.</th>
+                            <td>Cite</td>
+                            <td>&lt;cite&gt;&lt;/cite&gt;</td>
+                            <td>For citing the author of a quote</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">8.</th>
+                            <td>Time</td>
+                            <td>&lt;time&gt;&lt;/time&gt;</td>
+                            <td>For formatting date and time</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">9.</th>
+                            <td>Quote</td>
+                            <td>&lt;q&gt;&lt;/q&gt;</td>
+                            <td>For writing quotes inline</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">10.</th>
+                            <td>Strikethrough</td>
+                            <td>&lt;strike&gt;&lt;/strike&gt;</td>
+                            <td>Used to draw a line at the center of the text to make it appear as unimportant or no longer useful</td>
+                        </tr>
+                    </tbody>
+                    <caption>Examples of Inline elements</caption>
+                </table>
+            </article>
+        </section>
+
+        <section class="main-section" id="HTML_characters">
+            <header>HTML characters</header>
+            <article>
+                <p>They are used to mainly specify a line not as code to be executed but read as part of the page content and also
+                    for providing symbols not available for use. 
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="What_CSS_is">
+            <header>What CSS is</header>
+            <img src="./img/css.jpg" alt="">
+            <article>
+                <p><strong>Cascading Style Sheet</strong> is a style sheet used for describing thr presentation of a document 
+                    written in a markup language such as <em>HTML</em>. It transforms texts on a webpage from plain to something
+                    visually safisfying. It specifies the page layout, color, fonts of the document. its file extension ends with <b>.css</b>.
+                    There are three various types of CSS that can be applied across a document.
+                </p>
+                <h3>Inline CSS</h3>
+                <p>It contains the CSS property in the body section attached with the targeted element. It is specified
+                    within an HTML tag using the <em>Style</em> attribute. <br> 
+                    Example: <code class="code">&lt;p style="color:#e5e5e5; font-size:20px; text-align:center"&gt;I am floating&lt;/p&gt;</code>
+                </p>
+                <h3>Internal or Embedded CSS</h3>
+                <p>It is used when a single HTML document must be styled uniquely. The rule is set within the HTML file in the head 
+                    section. Example:
+                    <pre>
+                        <code class="code">
+                            &lt;html&gt;
+                            &lt;head&gt;
+                                &lt;title&gt;Internal CSS&lt;/title&gt;
+                                &lt;style&gt;
+                                    body {
+                                        margin: 10px 5px 10px 5px;
+                                        background-color: teal:
+                                    }
+                                &lt;/style&gt;
+                            &lt;/head&gt;
+                            &lt;body&gt;
+                                &lt;p&gt;I am floating!&lt;/p&gt;
+                            &lt;/body&gt;
+                            &lt;/html&gt;
+                        </code>
+                    </pre>
+                </p>
+                <h3>External CSS</h3>
+                <p>It contains seperate CSS file which contains only style property with the name of tag or attributes e.g class, id,
+                    label. It is written in a separate file with the <em>.css</em> extension and linked to the html  document using
+                    the link tag. Style is defined once and for each element and applied across web pages. Example:
+                    <pre>
+                        <code class="code">
+                            body {
+                                background-color: teal;
+                                text-align: center;
+                            }
+                            #main {
+                                float: left;
+                                margin:20px;
+                            }
+                        </code>
+                    </pre>
+                </p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Hierarchy_of_CSS">
+            <header>Hierarchy of CSS</header>
+            <article>
+                <p>When multiple style sheets are defined on one page, thre following order is followed in the application of the styles</p>
+                <ul>
+                    <li>Inline has the highest priority, so any style defined in the internal and external style will be overriddden.</li>
+                    <li>Internal has the next priority and would be applied before the external styles</li>
+                    <li>External has the least priority. If no style is defined in inline or internal then external is applied.</li>
+                </ul>
+            </article>
+        </section>
+
+        <section class="main-section" id="CSS_Animation">
+            <header>CSS Animation</header>
+            <article>
+                <p>This is used to make objects move by defining the properties using the <code>@Keyframe</code> properties.
+                    Example is a beatng heart animation. The html property is defined first <br>
+                    <code class="code">&lt;div class="heart"&gt;&lt;/div&gt;</code>
+                </p>
+                <p>The heart class properties with the before and after properties are defined in the .css file extension as <br>
+                    <pre>
+                        <code class="code">
+                            .heart {
+                                margin: 100px;
+                                position: absolute;
+                                transform: rotate(-45deg);
+                                top: 0;
+                                right: 0;
+                                left: 0;
+                                bottom: 0;
+                                background-color: rgb(214, 55, 81);
+                                height: 50px;
+                                width: 50px;
+                                animation-name: beat;
+                                animation-duration: 1s;
+                                animation-iteration-count: infinite;
+                            }
+                            .heart::after {
+                                content: "";
+                                background-color: rgb(214, 55, 81);
+                                border-radius: 50%;
+                                position: absolute;
+                                width: 50px;
+                                height: 50px;
+                                top: 0px;
+                                left: 25px;
+                            }
+                            .heart::before {
+                                content: "";
+                                background-color: rgb(214, 55, 81);
+                                border-radius: 50%;
+                                position: absolute;
+                                height: 50px;
+                                width: 50px;
+                                top: -25px;
+                                left: 0px;
+                            }
+                        </code>
+                    </pre>
+                </p>
+                <p>Since the animation name has been set to beat, we can then set the @keyframe property <br>
+                    <pre>
+                        <code class="code">
+                            @keyframes beat {
+                                0% {
+                                    transform: scale(1) rotate(-45deg);
+                                }
+                                50% {
+                                    transform: scale(0.6) rotate(-45deg);
+                                }
+                            }
+                        </code>
+                    </pre>
+                </p>
+                <p>When the page is loaded, an animated heart keeps beating.</p>
+            </article>
+        </section>
+
+        <section class="main-section" id="Why_Accessibility_is_important">
+            <header>Why Accessibility is important</header>
+            <article>
+                <p>It is important that the web be accessible to everyone inorder to provide equal access and equal opportunity to
+                    people with disabilities e.g people who cannot read, people who cannot hear. It gives access to information and 
+                    allows interaction for many people with disabilities. <br>
+                    The <em>alt</em> attribute is used on image elements describing what the image is about for those who can not read making
+                    screen readers able to read it. <br>
+                    <em>Captions</em> are used for media (image, video, audio), tables, figures for easy accessibility. <br>
+                    The scope attribute used with tables helps read out tables by rows and column. <br>
+                    Proper <em>HTML tags</em> should be used for what is intended e.g the clipping from an article should be used with the 
+                    article element not the div element. <br>
+                    The <em>ARIA(Accessible Rich Internet Applications)</em> attribute enables accessible navigation landmark, error messges,
+                    reading out a text as a whole even if they are written on separate lines. <br>
+                    The <em>role</em> attribute defines a specific role for type of object such as an aricle, alert, sllider. <br>
+                    The <em>title tag</em> should always be used so as to enable screen readers give description about the web page.
+                </p>
+            </article>
+        </section>
+    </main>
 </body>
 </html>
